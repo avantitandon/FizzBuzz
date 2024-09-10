@@ -8,11 +8,11 @@ class FizzBuzz {
 
         while (i < 100) {
 
-            i = dofizzzz(i);
+            i = Dofizzbuzz(i);
         }
     }
 
-    private static int dofizzzz(int i) {
+    public static int Dofizzbuzz(int i) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
